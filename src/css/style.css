@@ -1,0 +1,154 @@
+.header {
+  font-weight: 500;
+  color: #1d1b2a;
+}
+
+.header__top {
+  background-color: #f7f7fa;
+  padding: 30px 0;
+}
+
+.header__top_title {
+  color: #1d1b2a;
+}
+
+.header__top_phone_text {
+  margin-top: -5px;
+  text-align: right;
+}
+
+.header__top_phone_number {
+  display: inline-block;
+  font-size: 24px;
+  color: #051736;
+  text-transform: uppercase;
+}
+
+.header__top_button {
+  height: 44px;
+  min-width: 158px;
+  color: #fff;
+  outline: none;
+  border-radius: 22px;
+  background-color: #06dbd4;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#06dbd8), to(#00c6f0));
+  background-image: linear-gradient(to bottom, #06dbd8 0%, #00c6f0 100%);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 199, 239, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 199, 239, 0.2);
+}
+
+.header__top_button:hover {
+  color: #fff;
+  opacity: .8;
+}
+
+.header__top_button:focus {
+  outline: none;
+}
+
+.header__top_button:active {
+  outline: none;
+}
+
+.header__bottom {
+  background-color: #fff;
+}
+
+.header__nav {
+  width: 100%;
+  background-color: #fff;
+}
+
+.header__navitems {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+.header__navitems_link {
+  color: #1d1b2a !important;
+  max-width: 150px;
+}
+
+.header__navitems_link:hover {
+  color: #00c7ef !important;
+  border-bottom: 4px solid #00c7ef;
+}
+.header {
+  font-weight: 500;
+  color: #1d1b2a;
+}
+
+.header__top {
+  background-color: #f7f7fa;
+  padding: 30px 0;
+}
+
+.header__top_title {
+  color: #1d1b2a;
+}
+
+.header__top_phone_text {
+  margin-top: -5px;
+  text-align: right;
+}
+
+.header__top_phone_number {
+  display: inline-block;
+  font-size: 24px;
+  color: #051736;
+  text-transform: uppercase;
+}
+
+.header__top_button {
+  height: 44px;
+  min-width: 158px;
+  color: #fff;
+  outline: none;
+  border-radius: 22px;
+  background-color: #06dbd4;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#06dbd8), to(#00c6f0));
+  background-image: linear-gradient(to bottom, #06dbd8 0%, #00c6f0 100%);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 199, 239, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 199, 239, 0.2);
+}
+
+.header__top_button:hover {
+  color: #fff;
+  opacity: .8;
+}
+
+.header__top_button:focus {
+  outline: none;
+}
+
+.header__top_button:active {
+  outline: none;
+}
+
+.header__bottom {
+  background-color: #fff;
+}
+
+.header__nav {
+  width: 100%;
+  background-color: #fff;
+}
+
+.header__navitems {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+.header__navitems_link {
+  color: #1d1b2a !important;
+  max-width: 150px;
+}
+
+.header__navitems_link:hover {
+  color: #00c7ef !important;
+  border-bottom: 4px solid #00c7ef;
+}

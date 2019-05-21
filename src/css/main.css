@@ -1,0 +1,7 @@
+@import './fonts.css';
+@import './style.css';
+
+body {
+  margin: 0;
+  font-family: 'TT norms', sans-serif;
+}
