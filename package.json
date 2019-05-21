@@ -1,0 +1,33 @@
+{
+  "name": "cifrovoy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bob",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bob-chemist/cifrovoy-ray.git"
+  },
+  "keywords": [
+    "layout",
+    "bootstrap"
+  ],
+  "bugs": {
+    "url": "https://github.com/Bob-chemist/cifrovoy-ray/issues"
+  },
+  "homepage": "https://github.com/Bob-chemist/cifrovoy-ray#readme",
+  "description": ""
+}
