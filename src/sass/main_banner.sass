@@ -1,0 +1,81 @@
+.main
+  &__banner
+    background-image: url(../img/background.png) 
+    background-position: center 
+    background-size: cover
+    background-color: #060828
+    opacity: 0.95
+    width: 100%
+    padding-top: 60px
+    &_title
+      font-size: 44px
+      font-weight: 400
+      color: #fff
+      text-align: center
+    &_min
+      color: #fff
+      text-align: center
+      font-size: 24px
+      font-weight: 400
+      margin: 6px auto
+    &_inner
+      width: 90%
+      margin: 30px auto
+      min-height: 260px
+      border-radius: 30px
+      background-color: #000d22
+      opacity: 0.8
+      &_text
+        color: #fff
+        margin: 40px
+        text-align: center
+        font-size: 24px
+        font-weight: 400
+      &_small
+        opacity: 0.15
+        color: #fff
+        font-size: 14px
+        font-weight: 500
+        margin-top: 20px
+        text-align: center
+    &_features
+      margin: 10px auto
+      display: flex
+      justify-content: space-around
+      flex-wrap: wrap
+      font-size: 20px
+      font-weight: 400
+      &_item
+        color: #fff
+        text-align: center        
+        max-width: 330px
+        position: relative
+        margin: 20px
+        padding-bottom: 10px
+        flex-grow: 1
+        &:before
+          content: ""
+          display: inline-block
+          position: absolute
+          left: calc(50% - 8px)
+          top: -21px
+          width: 16px
+          height: 16px
+          border-radius: 50%
+          box-shadow: 0 3px 10px rgba(0, 199, 239, 0.2)
+          background-color: #ffffff
+          background-image: linear-gradient(to bottom, #06dbd8 0%, #00c6f0 100%)
+
+@media (max-width: 768px)
+  .main
+    &__banner
+      &_title
+        font-size: 30px
+      &_min
+        font-size: 18px
+      &_inner
+        &_text
+          font-size: 18px
+        &_small
+      &_features
+        font-size: 18px
