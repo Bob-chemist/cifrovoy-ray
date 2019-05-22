@@ -373,6 +373,72 @@ input::placeholder {
     font-size: 18px;
   }
 }
+
+.main__goods {
+  background-color: #f0f2f6;
+  padding-top: 120px;
+}
+
+.main__goods_title {
+  text-align: center;
+  font-size: 44px;
+  font-weight: 400;
+  color: #2d323e;
+  margin-bottom: 90px;
+}
+
+.main__goods_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.main__goods_list a {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.main__goods_list a:hover {
+  opacity: 1;
+}
+
+.main__goods_list_item {
+  height: 380px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+.main__goods_list_item img {
+  height: 220px;
+  margin: 0 auto;
+}
+
+.main__goods_list_item figcaption {
+  margin: 0 15px;
+  text-align: center;
+  color: #051736;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.main__goods_list_item figcaption span {
+  color: #00c7ef;
+  font-weight: 700;
+}
 .main__banner {
   background-image: url("../img/background.png");
   background-position: center;
@@ -481,4 +547,69 @@ input::placeholder {
   .main__banner_features {
     font-size: 18px;
   }
+}
+.main__goods {
+  background-color: #f0f2f6;
+  padding-top: 120px;
+}
+
+.main__goods_title {
+  text-align: center;
+  font-size: 44px;
+  font-weight: 400;
+  color: #2d323e;
+  margin-bottom: 90px;
+}
+
+.main__goods_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.main__goods_list a {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.main__goods_list a:hover {
+  opacity: 1;
+}
+
+.main__goods_list_item {
+  height: 380px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+.main__goods_list_item img {
+  height: 220px;
+  margin: 0 auto;
+}
+
+.main__goods_list_item figcaption {
+  margin: 0 15px;
+  text-align: center;
+  color: #051736;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.main__goods_list_item figcaption span {
+  color: #00c7ef;
+  font-weight: 700;
 }
