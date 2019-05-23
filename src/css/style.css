@@ -374,17 +374,17 @@ input::placeholder {
   }
 }
 
-.main__goods {
-  background-color: #f0f2f6;
-  padding-top: 120px;
-}
-
-.main__goods_title {
+.main__title {
   text-align: center;
   font-size: 44px;
   font-weight: 400;
   color: #2d323e;
   margin-bottom: 90px;
+}
+
+.main__goods {
+  background-color: #f0f2f6;
+  padding-top: 120px;
 }
 
 .main__goods_list {
@@ -458,6 +458,50 @@ input::placeholder {
   max-width: 1034px;
   margin: 0 auto;
   padding: 50px 20px 30px 20px;
+}
+
+.main__coop {
+  padding-top: 120px;
+}
+
+.main__coop_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.main__coop_item {
+  width: 250px;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.main__coop_item img {
+  margin-bottom: 31px;
+}
+
+.main__coop_item_title {
+  color: #051736;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  margin-bottom: 12px;
+}
+
+.main__coop_item_text {
+  color: #535f75;
+  font-size: 16px;
+  font-weight: 500;
 }
 .main__banner {
   background-image: url("../img/background.png");
@@ -568,6 +612,49 @@ input::placeholder {
     font-size: 18px;
   }
 }
+.main__coop {
+  padding-top: 120px;
+}
+
+.main__coop_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.main__coop_item {
+  width: 250px;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.main__coop_item img {
+  margin-bottom: 31px;
+}
+
+.main__coop_item_title {
+  color: #051736;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  margin-bottom: 12px;
+}
+
+.main__coop_item_text {
+  color: #535f75;
+  font-size: 16px;
+  font-weight: 500;
+}
 .main__form {
   background-color: #f0f2f6;
   min-height: 584px;
@@ -587,17 +674,17 @@ input::placeholder {
   margin: 0 auto;
   padding: 50px 20px 30px 20px;
 }
-.main__goods {
-  background-color: #f0f2f6;
-  padding-top: 120px;
-}
-
-.main__goods_title {
+.main__title {
   text-align: center;
   font-size: 44px;
   font-weight: 400;
   color: #2d323e;
   margin-bottom: 90px;
+}
+
+.main__goods {
+  background-color: #f0f2f6;
+  padding-top: 120px;
 }
 
 .main__goods_list {
