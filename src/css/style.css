@@ -503,6 +503,23 @@ input::placeholder {
   font-size: 16px;
   font-weight: 500;
 }
+
+.main__partners_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+
+.main__partners_list img {
+  margin: 10px 30px;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
 .main__banner {
   background-image: url("../img/background.png");
   background-position: center;
@@ -738,4 +755,20 @@ input::placeholder {
 .main__goods_list_item figcaption span {
   color: #00c7ef;
   font-weight: 700;
+}
+.main__partners_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+
+.main__partners_list img {
+  margin: 10px 30px;
+  -ms-flex-item-align: center;
+  align-self: center;
 }
