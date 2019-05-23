@@ -439,6 +439,26 @@ input::placeholder {
   color: #00c7ef;
   font-weight: 700;
 }
+
+.main__form {
+  background-color: #f0f2f6;
+  min-height: 584px;
+  background-image: url("../img/phone_bg.png");
+  background-repeat: no-repeat;
+  background-position: center top 5px;
+  padding: 160px 10px 200px 10px;
+}
+
+.main__form_container {
+  background-color: #202732;
+  -webkit-box-shadow: 0 15px 40px rgba(0, 106, 238, 0.1);
+  box-shadow: 0 15px 40px rgba(0, 106, 238, 0.1);
+  border: 5px solid #00c7ef;
+  border-radius: 30px;
+  max-width: 1034px;
+  margin: 0 auto;
+  padding: 50px 20px 30px 20px;
+}
 .main__banner {
   background-image: url("../img/background.png");
   background-position: center;
@@ -547,6 +567,25 @@ input::placeholder {
   .main__banner_features {
     font-size: 18px;
   }
+}
+.main__form {
+  background-color: #f0f2f6;
+  min-height: 584px;
+  background-image: url("../img/phone_bg.png");
+  background-repeat: no-repeat;
+  background-position: center top 5px;
+  padding: 160px 10px 200px 10px;
+}
+
+.main__form_container {
+  background-color: #202732;
+  -webkit-box-shadow: 0 15px 40px rgba(0, 106, 238, 0.1);
+  box-shadow: 0 15px 40px rgba(0, 106, 238, 0.1);
+  border: 5px solid #00c7ef;
+  border-radius: 30px;
+  max-width: 1034px;
+  margin: 0 auto;
+  padding: 50px 20px 30px 20px;
 }
 .main__goods {
   background-color: #f0f2f6;
